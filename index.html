@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/styles/main.css">
+  </head>
+  <body>
+    
+<header">
+  <div class="collapse bg-dark" id="navbarMenu">
+    <div class="container">
+      <ul class="p-2">
+        <li class="nav-menu-li mt-3 mb-3">Новый заказ</li>
+        <hr>
+        <li class="nav-menu-li mb-3">Коктейли</li>
+        <hr>
+        <li class="nav-menu-li mb-3">Ингредиенты</li>
+        <hr>
+        <li class="nav-menu-li mb-3">Сотрудники</li>
+        <hr>
+        <li class="nav-menu-li mb-3">Выход</li>
+      </ul>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+    <a class="navbar-brand" href="#">
+      <strong style="color: #824b4b; margin: auto;">BAR-STREET</strong>
+    </a>
+    <button id="btn-nav" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav"">
+      <ul class="navbar-nav" style="position: absolute; right: 0; margin-right: 10px; font-size: 18px;">
+        <li class="nav-item active item-cl">
+          <a class="nav-link" href="#">Новый заказ</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Коктейли</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Ингредиенты</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Сотрудники</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Выход</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="container">
+      <div class="container mt-5 mb-5">
+        <div class="d-flex justify-content-center p-2">
+          <div class="col-md-12 mx-auto">
+            <div class="row p-2" style="text-align: right;">
+              <div class="d-inline" style="flex: 1; text-align: left;">
+                <h1 style="color: black;">Настройка</h1>
+              </div>
+              <div class="d-inline-btn" id="cont-btn-add" style="flex: 3;">
+                <button class="btn btn-add" style="background-color: #7f3154; color: white;" class="btn p-2">Добавить сотрудника</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="container mt-5 mb-5">
+        <div class="d-flex cont-anim justify-content-center p-2" style="text-align: center; background-color: #cccccc; border-radius: 10px;">
+          <div class="col">
+            <div class="row">
+              <div class="d-inline p-1 small-text" style="flex: 1;">
+                <p class="small-text" style="color: #525881;">Имя сотрудника</p>
+              </div>
+              <div class="d-inline p-1" style="flex: 2;">
+                <p class="small-text" style="color: #525881;">Дата записи / Редактирование</p>
+              </div>
+              <div class="d-inline-ex p-1" id="extra-p-m" style="flex: 1;">
+                <p class="small-text" style="color: #525881;">Сортировать: Сначала новые</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="extra-p-m2" style="flex: 1;">
+          <p class="small-text" style="color: #525881;">Сортировать: Сначала новые</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container mt-5 mb-3">
+        <div class="d-flex cont-anim justify-content-center p-3" style="font-size: 20px; font: 600; text-align: center; border: 1px solid #cccccc; border-radius: 10px;">
+          <div class="col">
+            <div class="row">
+              <div class="d-inline p-1 small-text" style="flex: 1;">
+                <p class="small-text" style="color: #525881;">Иван сергеев</p>
+              </div>
+              <div class="d-inline p-1" style="flex: 2;">
+                <p class="small-text" style="color: #525881;">15.07.2022 / 28.07.2022</p>
+              </div>
+              <div class="d-inline-ex p-1" id="extra-p-m" style="flex: 1;">
+                <p class="small-text" style="color: #525881;">Редактировать</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container mt-5 mb-3">
+        <div class="d-flex cont-anim justify-content-center p-3" style="font-size: 20px; font: 600; text-align: center; border: 1px solid #cccccc; border-radius: 10px;">
+          <div class="col">
+            <div class="row">
+              <div class="d-inline p-1 small-text" style="flex: 1;">
+                <p class="small-text" style="color: #525881;">Евгений Морозов</p>
+              </div>
+              <div class="d-inline p-1" style="flex: 2;">
+                <p class="small-text" style="color: #525881;">11.07.2022 / 11.07.2022</p>
+              </div>
+              <div class="d-inline-ex p-1" id="extra-p-m" style="flex: 1;">
+                <p class="small-text" style="color: #525881;">Редактировать</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container mt-5 mb-3">
+        <div class="d-flex cont-anim justify-content-center p-3" style="font-size: 20px; font: 600; text-align: center; border: 1px solid #cccccc; border-radius: 10px;">
+          <div class="col">
+            <div class="row">
+              <div class="d-inline p-1 small-text" style="flex: 1;">
+                <p class="small-text" style="color: #525881;">Дмитрий Петров</p>
+              </div>
+              <div class="d-inline p-1" style="flex: 2;">
+                <p class="small-text" style="color: #525881;">05.07.2022 / 05.07.2022</p>
+              </div>
+              <div class="d-inline-ex p-1" id="extra-p-m" style="flex: 1;">
+                <p class="small-text" style="color: #525881;">Редактировать</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container mt-5 mb-3">
+        <div class="d-flex cont-anim justify-content-center p-3" style="font-size: 20px; font: 600; text-align: center; border: 1px solid #cccccc; border-radius: 10px;">
+          <div class="col">
+            <div class="row">
+              <div class="d-inline p-1 small-text" style="flex: 1;">
+                <p class="small-text" style="color: #525881;">Клим Николай</p>
+              </div>
+              <div class="d-inline p-1" style="flex: 2;">
+                <p class="small-text" style="color: #525881;">04.07.2022 / 04.07.2022</p>
+              </div>
+              <div class="d-inline-ex p-1" id="extra-p-m" style="flex: 1;">
+                <p class="small-text" style="color: #525881;">Редактировать</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+  </div>
+</footer>
+      
+<script src="./src//scripts/script.js"></script>
+  </body>
+</html>
